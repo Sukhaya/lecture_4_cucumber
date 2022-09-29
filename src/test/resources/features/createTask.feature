@@ -1,7 +1,6 @@
 Feature: Создание задачи
 
   Scenario: Завести задачу в Jira
-  Предыстория: открыта страница портала - https://edujira.ifellow.ru/secure/Dashboard.jspa
     When Авторизуемся под юзером: suhinina и паролем: Qwerty123
     When Переходим к созданию задачи
     When Установим для задачи тип ошибка

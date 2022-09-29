@@ -4,38 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15dc805e-80d8-4b86-87b0-bce9ce28f9a9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/Configuration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/CucumberRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/PageElements/AuthorizationPageElements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/PageElements/CreateTaskPageElements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/PageElements/MainPageElements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/PageElements/ProjectPageElements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/PageElements/ProjectTasksPageElements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/PageElements/TaskPageElements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/hooks/WebHooks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitionCalc/CalculatorMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitionCalc/CalculatorSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitionJira/AuthorizationSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitionJira/CreateTaskSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitionJira/Hooks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitionJira/MainPageSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitionJira/ProjectSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitionJira/ProjectTasksSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitionJira/TaskSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/authorization.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/changeTasksStatus.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/countProjectTasks.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/createTask.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/myCalc.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/projectOpen.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/projectStatusAndVersion.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/test.properties" afterDir="false" />
+    <list default="true" id="15dc805e-80d8-4b86-87b0-bce9ce28f9a9" name="Changes" comment="push changes">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitionJira/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitionJira/Hooks.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,16 +34,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/Users/mariasuhinina/IdeaProjects/iFellow/lecture_4_cucumber/src/test/resources",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/mariasuhinina/IdeaProjects/iFellow/lecture_4_cucumber/src/test/resources&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/test/resources" />
@@ -94,17 +65,16 @@
       <recent name="hooks" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: авторизация на тестовом портале Jira">
-    <configuration name="Scenario: Проверка количества задач в проекте" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Cucumber Java.All Features in: features">
+    <configuration name="All Features in: features" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/projectTasks.feature" />
-      <option name="GLUE" value="stepDefinitionJira" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features" />
+      <option name="GLUE" value="stepDefinitionJira stepDefinitionCalc" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="lecture_4_cucumber" />
-      <option name="NAME_FILTER" value="^Проверка количества задач в проекте$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Проверка количества задач в проекте$&quot;" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
       <shortenClasspath name="NONE" />
-      <option name="SUGGESTED_NAME" value="Scenario: Проверка количества задач в проекте" />
+      <option name="SUGGESTED_NAME" value="All Features in: features" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -116,16 +86,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Менять статусы задави до ГОТОВО" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: myCalc" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/changeTasksStatus.feature" />
-      <option name="GLUE" value="stepDefinitionJira" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/myCalc.feature" />
+      <option name="GLUE" value="stepDefinitionJira stepDefinitionCalc" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="lecture_4_cucumber" />
-      <option name="NAME_FILTER" value="^Менять статусы задави до ГОТОВО$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Менять статусы задави до ГОТОВО$&quot;" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
       <shortenClasspath name="NONE" />
-      <option name="SUGGESTED_NAME" value="Scenario: Менять статусы задави до ГОТОВО" />
+      <option name="SUGGESTED_NAME" value="Feature: myCalc" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -158,9 +127,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Scenario: Завести задачу в Jira" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/createTask.feature" />
+      <option name="GLUE" value="stepDefinitionJira" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="lecture_4_cucumber" />
+      <option name="NAME_FILTER" value="^Завести задачу в Jira$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Завести задачу в Jira$&quot;" />
+      <shortenClasspath name="NONE" />
+      <option name="SUGGESTED_NAME" value="Scenario: Завести задачу в Jira" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Scenario: проверка статуса и версии" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/project.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/projectStatusAndVersion.feature" />
       <option name="GLUE" value="stepDefinitionJira" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="lecture_4_cucumber" />
@@ -194,35 +184,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="features in lecture_4_cucumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="lecture_4_cucumber" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="features.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="features" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Cucumber Java.Scenario: Менять статусы задави до ГОТОВО" />
-      <item itemvalue="Cucumber Java.Scenario: Проверка количества задач в проекте" />
-      <item itemvalue="Cucumber Java.Scenario: авторизация на тестовом портале Jira" />
+      <item itemvalue="Cucumber Java.All Features in: features" />
+      <item itemvalue="Cucumber Java.Scenario: Завести задачу в Jira" />
       <item itemvalue="Cucumber Java.Scenario: проверка статуса и версии" />
-      <item itemvalue="JUnit.features in lecture_4_cucumber" />
+      <item itemvalue="Cucumber Java.Feature: myCalc" />
+      <item itemvalue="Cucumber Java.Scenario: авторизация на тестовом портале Jira" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Scenario: авторизация на тестовом портале Jira" />
-        <item itemvalue="JUnit.features in lecture_4_cucumber" />
-        <item itemvalue="Cucumber Java.Scenario: Менять статусы задави до ГОТОВО" />
-        <item itemvalue="Cucumber Java.Scenario: Проверка количества задач в проекте" />
+        <item itemvalue="Cucumber Java.All Features in: features" />
         <item itemvalue="Cucumber Java.Scenario: проверка статуса и версии" />
+        <item itemvalue="Cucumber Java.Scenario: Завести задачу в Jira" />
+        <item itemvalue="Cucumber Java.Scenario: авторизация на тестовом портале Jira" />
+        <item itemvalue="Cucumber Java.Feature: myCalc" />
       </list>
     </recent_temporary>
   </component>
@@ -235,6 +210,14 @@
       <option name="presentableId" value="Default" />
       <updated>1664363088954</updated>
     </task>
+    <task id="LOCAL-00001" summary="push changes">
+      <created>1664439617767</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1664439617767</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -248,20 +231,8 @@
       </map>
     </option>
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/stepDefinitionCalc/CalculatorSteps.java</url>
-          <line>18</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/stepDefinitionCalc/CalculatorSteps.java</url>
-          <line>23</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="push changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="push changes" />
   </component>
 </project>

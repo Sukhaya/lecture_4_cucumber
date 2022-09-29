@@ -1,7 +1,6 @@
 Feature: Открываем проект
 
   Scenario: Переходим в проект TestProject
-  Предыстория: открыта страница портала - https://edujira.ifellow.ru/secure/Dashboard.jspa
     When Авторизуемся под юзером: suhinina и паролем: Qwerty123
     When Открываем список проектов
     When Переходим в проект TestProject
