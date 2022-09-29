@@ -1,4 +1,4 @@
-package stepDefinition;
+package stepDefinitionCalc;
 
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
@@ -14,7 +14,7 @@ public class CalculatorSteps {
     double result;
 
     @Given("две цифры (\\d) и (\\d)")
-    public void given(double a, double b)  {
+    public void given(double a, double b) {
         this.a = a;
         this.b = b;
         this.calc = new CalculatorMain();
@@ -26,7 +26,7 @@ public class CalculatorSteps {
     }
 
     @Then("результат должен быть (\\d)")
-    public void then(double res){
+    public void then(double res) {
         assertEquals(res,result,0.0001);
     }
 }
