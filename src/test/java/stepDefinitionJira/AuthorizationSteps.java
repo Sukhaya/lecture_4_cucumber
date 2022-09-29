@@ -8,9 +8,12 @@ import static PageElements.AuthorizationPageElements.loginButton;
 import static PageElements.AuthorizationPageElements.loginField;
 import static PageElements.AuthorizationPageElements.passwordField;
 import static PageElements.MainPageElements.userProfileIcon;
+import static com.codeborne.selenide.Condition.attribute;
 import static com.codeborne.selenide.Condition.enabled;
 import static com.codeborne.selenide.Condition.visible;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
+import static utils.Configuration.getConfigurationValue;
 
 public class AuthorizationSteps {
     @When("^Вводим логин (.*) и пароль (.*)$")
@@ -24,9 +27,15 @@ public class AuthorizationSteps {
         loginButton.shouldBe(enabled).click();
     }
 
+    @When("^Получаем имя текущего юзера$")
+    public String getCurrentUsername() {
+        return userProfileIcon.shouldHave(attribute("data-username")).attr("data-username");
+    }
+
     @Then("^Проверяем, что мы авторизованы$")
     public void checkSuccess() {
         assertTrue(userProfileIcon.is(visible));
+        assertEquals(getConfigurationValue("login"), getCurrentUsername());
     }
 
     @When("^Авторизуемся под юзером: (.*) и паролем: (.*)$")
@@ -35,5 +44,6 @@ public class AuthorizationSteps {
         passwordField.shouldBe(visible).sendKeys(pass);
         loginButton.shouldBe(enabled).click();
         assertTrue(userProfileIcon.is(visible));
+        assertEquals(getConfigurationValue("login"), getCurrentUsername());
     }
 }

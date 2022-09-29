@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15dc805e-80d8-4b86-87b0-bce9ce28f9a9" name="Changes" comment="push changes">
+    <list default="true" id="15dc805e-80d8-4b86-87b0-bce9ce28f9a9" name="Changes" comment="added @After">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitionJira/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitionJira/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitionJira/AuthorizationSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitionJira/AuthorizationSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/authorization.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/authorization.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,15 +87,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Feature: myCalc" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: countProjectTasks" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/myCalc.feature" />
-      <option name="GLUE" value="stepDefinitionJira stepDefinitionCalc" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/countProjectTasks.feature" />
+      <option name="GLUE" value="stepDefinitionJira" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="lecture_4_cucumber" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
       <shortenClasspath name="NONE" />
-      <option name="SUGGESTED_NAME" value="Feature: myCalc" />
+      <option name="SUGGESTED_NAME" value="Feature: countProjectTasks" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -185,19 +186,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Cucumber Java.Feature: countProjectTasks" />
       <item itemvalue="Cucumber Java.All Features in: features" />
       <item itemvalue="Cucumber Java.Scenario: Завести задачу в Jira" />
       <item itemvalue="Cucumber Java.Scenario: проверка статуса и версии" />
-      <item itemvalue="Cucumber Java.Feature: myCalc" />
       <item itemvalue="Cucumber Java.Scenario: авторизация на тестовом портале Jira" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Cucumber Java.All Features in: features" />
+        <item itemvalue="Cucumber Java.Feature: countProjectTasks" />
+        <item itemvalue="Cucumber Java.Scenario: авторизация на тестовом портале Jira" />
         <item itemvalue="Cucumber Java.Scenario: проверка статуса и версии" />
         <item itemvalue="Cucumber Java.Scenario: Завести задачу в Jira" />
-        <item itemvalue="Cucumber Java.Scenario: авторизация на тестовом портале Jira" />
-        <item itemvalue="Cucumber Java.Feature: myCalc" />
       </list>
     </recent_temporary>
   </component>
@@ -217,7 +218,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664439617767</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added @After">
+      <created>1664452147161</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1664452147161</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -233,6 +241,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="push changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="push changes" />
+    <MESSAGE value="added @After" />
+    <option name="LAST_COMMIT_MESSAGE" value="added @After" />
   </component>
 </project>
