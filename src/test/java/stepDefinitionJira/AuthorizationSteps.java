@@ -8,6 +8,7 @@ import static PageElements.AuthorizationPageElements.loginButton;
 import static PageElements.AuthorizationPageElements.loginField;
 import static PageElements.AuthorizationPageElements.passwordField;
 import static PageElements.MainPageElements.userProfileIcon;
+import static com.codeborne.selenide.Condition.appear;
 import static com.codeborne.selenide.Condition.attribute;
 import static com.codeborne.selenide.Condition.enabled;
 import static com.codeborne.selenide.Condition.visible;
@@ -34,7 +35,7 @@ public class AuthorizationSteps {
 
     @Then("^Проверяем, что мы авторизованы$")
     public void checkSuccess() {
-        assertTrue(userProfileIcon.is(visible));
+        userProfileIcon.shouldBe(appear);
         assertEquals(getConfigurationValue("login"), getCurrentUsername());
     }
 
