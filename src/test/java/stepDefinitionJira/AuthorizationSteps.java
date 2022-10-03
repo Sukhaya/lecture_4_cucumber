@@ -44,7 +44,7 @@ public class AuthorizationSteps {
         loginField.shouldBe(visible).sendKeys(login);
         passwordField.shouldBe(visible).sendKeys(pass);
         loginButton.shouldBe(enabled).click();
-        assertTrue(userProfileIcon.is(visible));
+        userProfileIcon.shouldBe(appear);
         assertEquals(getConfigurationValue("login"), getCurrentUsername());
     }
 }
